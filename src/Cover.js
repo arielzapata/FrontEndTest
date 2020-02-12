@@ -253,7 +253,7 @@ const NoiseFilter = Styled.div`
   z-index: 4;
   position: relative;
 `;
-function CoverFace(props) {  
+function Cover(props) {  
   const WordOne = { T: "90px", H: "92px", E: "100px" }
   const WordTwo = { V: "80px", A: "90px", N: "100px", I:"110px", S: "120px", H: "130px", I2: "140px", N2: "150px", G: "160px" }
   const WordThree = {F: "80px", U: "90px", T: "100px", U2: "110px", R: "120px", I: "130px", S:"140px", T2: "150px"}
@@ -319,4 +319,4 @@ function CoverFace(props) {
   );
 }
 
-export default CoverFace;
+export default Cover;
